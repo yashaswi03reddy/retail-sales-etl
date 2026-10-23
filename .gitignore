@@ -1,8 +1,29 @@
+```gitignore
+# Python cache files
 __pycache__/
 *.py[cod]
-.venv/
+
+# Virtual environments
 venv/
+.venv/
+env/
+
+# Environment variables and secrets
 .env
+
+# Log files
+*.log
+
+# SQLite database
+data/*.db
+
+# Editor settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+```
 
 
 
